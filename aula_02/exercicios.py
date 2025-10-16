@@ -35,8 +35,6 @@ pessoas = [] # Coleção lista
 # print(nome2, idade2, peso2, altura2)
 # print(nome3, idade3, peso3, altura3)
 
-
-
 '''
     Laboratório 2
     
