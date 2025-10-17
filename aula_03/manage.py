@@ -20,7 +20,7 @@ def saudacao_03(nome):
 # saudacao_03("Julio")
 
 # Com retorno e com parâmetro   
-def saudacao_04(nome):
+def saudacao_04(nome) -> str:
     return f"Seja bem vindo(a) {nome}"
 
 # result = saudacao_04("Julio")
