@@ -153,8 +153,6 @@ class RelatorioEstoque(Relatorio):
 
         wb.save(f"relatorio_estoque_{datetime.now().strftime("%d.%m.%Y")}.xlsx")
         
-
-
 dados = [
     ["Produto", "Preço", "QTD"],
     ["Mouse", 48.15, 5],
