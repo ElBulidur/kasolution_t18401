@@ -44,7 +44,6 @@ alunos = ["Rene", "Wesley", "Mauro", "julio pereira"]
 # for aluno in alunos:
 #     criar_aluno(aluno)
 
-
 # READ
 def pegar_alunos():
     ## SQL
