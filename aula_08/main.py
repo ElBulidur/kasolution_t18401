@@ -1,3 +1,33 @@
+# ============================ REVISÃO ============================
+# BÁSICO
+## print, input, variáveis, operadores(matemáticos, relacional e lógicos)
+
+# ESTRUTURA CONDICIONAL
+## if/else
+
+# COLEÇÕES
+## Lista, Tupla e dicionários
+
+# ESTRUTURA DE REPETIÇÃO
+## for e while
+
+# FUNÇÕES E MÓDULOS
+## def, args, kargs, lambda, from e import
+
+# ORIENTADA A OBJETO
+## Classes, objetos, atributos, propriedades, métodos, construtores
+## Herança, polimorfismo
+
+# ARQUIVOS
+## os, csv, pyopenxl, pandas
+
+# BANCO DE DADOS
+## mysql-conector-python, sqlalchyme, CRUD
+
+## API
+# requests, mockapi, métodos(get, post, put e delete)
+
+# =========================== EXEMPLOS CRUD API ==================================
 import requests
 import json
 
@@ -5,7 +35,6 @@ endpoint = "https://68f979b1ef8b2e621e7c2c73.mockapi.io/"
 url = f"{endpoint}/alunos"
 
 # CREATE
-
 def criar_aluno_api(dados):
     resposta = requests.post(url=url, data=dados)
 
@@ -68,5 +97,3 @@ def deletar_aluno(id):
 
 # EXEMPLO
 # deletar_aluno(10) 
-
-
